@@ -1,5 +1,5 @@
 @echo Compile programm...
 @echo off
-C:/TDM-GCC-32/bin/g++.exe -I  -g .\main.cpp -o .\main.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32  
+C:/TDM-GCC-32/bin/g++.exe -g .\main.cpp -o .\main.exe -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32  
 @echo Run application...
 .\main.exe
